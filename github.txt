@@ -1,0 +1,10 @@
+
+
+
+GitHub的使用
+
+一 配置 sshkey
+1,生成 key  ssh-keygen -t rsa -C " 邮箱地址" ，// ssh 与-keygen 中间不能有空格   不然会报错；
+2,cd ~/.ssh(用户目录下的.ssh文件夹）
+3,复制id_rsa.pub的公钥内容到github网站中
+二 配置多个sshkey
