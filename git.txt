@@ -1,0 +1,24 @@
+
+git branch  //查询本地分支名
+git branch -a //查询远程所有分支名
+git checkout  分支名   //切换分支名
+git checkout -d  分支名  //删除本地分支
+
+1,git checkout -r -d  分支名  2,  git push   origin  :分支名  //删除远程分支名
+
+git merge 分支名； //合并代码到master
+
+TestNG 介绍
+
+1，比Junit涵盖功能更全面的测试框架
+2，Junit更适合隔离性比较强的单元测试
+3，TestNG更适合复杂的集成测试
+
+Test NG 引用:
+<dependencies>
+    <dependencies>
+          <groupId>org.testng</groupId>
+          <artifactId>testng</artifactId>
+          <version>6.10</version>
+    </dependencies>
+</dependencies>
