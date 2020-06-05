@@ -1,5 +1,6 @@
 git branch  //查询本地分支名
-git branch -a //查询远程所有分支名
+git branch -a //查询远程本地所有分支名
+git branch -r //查询远程分支名
 git checkout  分支名   //切换分支名
 git checkout -d    //创建本地分支名
 
