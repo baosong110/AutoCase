@@ -3,7 +3,9 @@ git branch -a //查询远程本地所有分支名
 git branch -r //查询远程分支名
 git checkout  分支名   //切换分支名
 git checkout -d    //创建本地分支名
-
+git log            //查看修改历史版本记录
+git reflog         //获取版本号
+git reset --hard  版本号 // 跳转切换不同版本号
 //推送本地创建分支到远程github 上
 1，git checkout -d  分支名
 2，git push  --set-upstream origin  分支名
